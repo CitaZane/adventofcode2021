@@ -25,8 +25,6 @@ func firstMesurement(data []int) int {
 	return count
 }
 
-// 1752
-
 func secondMesurement(data []int) int {
 	count := 0
 	for i := 0; i < len(data)-3; i++ {
@@ -40,8 +38,6 @@ func secondMesurement(data []int) int {
 	}
 	return count
 }
-
-// 1781
 
 func readInts(file string) []int {
 	d, _ := ioutil.ReadFile(file)
